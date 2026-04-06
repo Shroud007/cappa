@@ -36,7 +36,8 @@ class TranslatorType:
     ANTIPLAG_ALLOWED = {
         PYTHON38,
         GCC74,
-        JAVA
+        JAVA,
+        POSTGRESQL
     }
 
     LITERALS = typing.Literal[
